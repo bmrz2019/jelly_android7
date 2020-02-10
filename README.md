@@ -31,4 +31,3 @@ etc/sysconfig/?.xml
 >__\<hidden-api-whitelisted-app package="org.lineageos.jelly"/\>__
 
 prim-origin: https://github.com/LineageOS/android_packages_apps_Jelly
-# jelly_android7

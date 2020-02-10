@@ -66,7 +66,7 @@ public final class PrefsUtils {
 
     public static boolean getLocation(Context context) {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
-        return prefs.getBoolean(KEY_LOCATION, true);
+        return prefs.getBoolean(KEY_LOCATION, false);
     }
 
     public static boolean getCookie(Context context) {
@@ -102,7 +102,7 @@ public final class PrefsUtils {
 
     public static boolean getSaveFormData(Context context) {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
-        return prefs.getBoolean(KEY_SAVE_FORM_DATA, true);
+        return prefs.getBoolean(KEY_SAVE_FORM_DATA, false);
     }
 
     public static void setHomePage(Context context, String value) {
